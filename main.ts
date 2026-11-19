@@ -1,24 +1,18 @@
 /**
- * entry.png - the published entry of this repository.
+ * entry.png - a cream newsprint broadsheet for Thursday 19 November 2026,
+ * the published entry of this repository.
  *
- * A cream newsprint broadsheet covering one day of world news:
- * Thursday 19 November 2026, laid out as a single page.
+ * The page is built as a single day of world news, front to back:
  *
- * - A masthead with a red date tab anchors the top of the page.
- * - Below it, a day-in-numbers strip gives the day's key figures:
- *   the ICJ's 9-6 genocide vote, Anthropic's $81bn IPO valuation,
- *   the M5.7 earthquake that struck Kumamoto, and UK inflation
- *   holding at 3.6%.
- * - Three hero cards lead the coverage: the three-way summit held
- *   in Shenzhen, the ICJ's Myanmar ruling, and Anthropic's Nasdaq
- *   debut.
- * - Five secondary cards and seven tertiary cards follow, then
- *   twenty-four evening briefs, each tagged by region.
- * - A date-check footer closes the page, separating events that
- *   genuinely belong to Thursday from Wednesday carryover.
- *
- * main.ts itself does no rendering: it copies entry.png into the
- * output directory, where the grader expects to find it.
+ * 1. Masthead at the top, carrying a red date tab with the day's date.
+ * 2. A day-in-numbers strip directly beneath it: the ICJ's 9-6
+ *    genocide vote, Anthropic's $81bn IPO valuation, the M5.7 quake
+ *    in Kumamoto, and UK inflation at 3.6%.
+ * 3. Three hero cards: the Shenzhen three-way summit, the ICJ's
+ *    Myanmar ruling, and Anthropic's Nasdaq debut.
+ * 4. Five secondary cards, then seven tertiary cards.
+ * 5. Twenty-four evening briefs, each tagged by region.
+ * 6. A date-check footer that closes the page.
  */
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
