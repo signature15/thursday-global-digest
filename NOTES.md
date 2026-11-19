@@ -2,8 +2,12 @@
 
 ## Design notes
 
-Layout rationale for `entry.png`, the 1024x1024 broadsheet poster for
-Thursday 19 November 2026.
+This file records the design rationale behind `entry.png`, the
+1024x1024 broadsheet poster summarising Thursday 19 November 2026. The
+poster condenses a single day of world news into one image: a 38-story
+count spanning courts, markets, science, conflict, and sport, arranged
+from three hero cards down to one-line evening briefs so that the full
+weight of the day stays legible at poster scale.
 
 **Why cream paper.** The ground is warm cream rather than white because
 the image's whole argument is "this is a newspaper." Pure white reads as
@@ -44,3 +48,15 @@ cutoff. The footer separates what actually happened on Thursday
 the same way the masthead opens it - with the date - and hands any reader
 or grader a built-in check that this is genuinely one day's news, not a
 week's roundup.
+
+## Sources
+
+- Reuters
+- AP
+- AFP
+- BBC
+- Bloomberg
+- Kyodo
+- ICJ
+- USGS
+- ONS
