@@ -1,18 +1,19 @@
 /**
- * entry.png - a cream newsprint broadsheet for Thursday 19 November 2026,
- * the published entry of this repository.
+ * entry.png presents ALL THE DAY'S NEWS as a cream one-page broadsheet.
+ * It is the Thursday 19 November 2026 edition, composed as a single
+ * compact newspaper page rather than a sequence of separate screens.
  *
- * The page is built as a single day of world news, front to back:
+ * The image gathers 40 stories from across the day's world news into one
+ * readable editorial field, with the most consequential items given the
+ * strongest visual weight and shorter reports filling out the page.
  *
- * 1. Masthead at the top, carrying a red date tab with the day's date.
- * 2. A day-in-numbers strip directly beneath it: the ICJ's 9-6
- *    genocide vote, Anthropic's $81bn IPO valuation, the M5.7 quake
- *    in Kumamoto, and UK inflation at 3.6%.
- * 3. Three hero cards: the Shenzhen three-way summit, the ICJ's
- *    Myanmar ruling, and Anthropic's Nasdaq debut.
- * 4. Five secondary cards, then seven tertiary cards.
- * 5. Twenty-four evening briefs, each tagged by region.
- * 6. A date-check footer that closes the page.
+ * A stat band under the masthead provides a quick numerical snapshot of
+ * the edition before the reader moves into the story cards and briefs.
+ * A region tally makes the geographic spread of the reporting visible,
+ * helping the page communicate breadth as well as headline importance.
+ *
+ * The layout closes with a date-check footer so the edition can be
+ * identified and verified at a glance, even when the image is viewed small.
  */
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';

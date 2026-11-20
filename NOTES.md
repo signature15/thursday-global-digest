@@ -2,12 +2,12 @@
 
 ## Design notes
 
-This file records the design rationale behind `entry.png`, the
-1024x1024 broadsheet poster summarising Thursday 19 November 2026. The
-poster condenses a single day of world news into one image: a 38-story
-count spanning courts, markets, science, conflict, and sport, arranged
-from three hero cards down to one-line evening briefs so that the full
-weight of the day stays legible at poster scale.
+This file records the design rationale behind `entry.png`, a cream
+one-page edition headed **ALL THE DAY'S NEWS** for Thursday 19 November
+2026. The poster condenses the day's world news into 40 stories, using a
+stat band for the quick numbers, a region tally to show geographic
+coverage, and a date-check footer to verify the edition while keeping the
+full weight of the day legible at poster scale.
 
 **Why cream paper.** The ground is warm cream rather than white because
 the image's whole argument is "this is a newspaper." Pure white reads as
